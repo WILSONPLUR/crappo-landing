@@ -1,9 +1,9 @@
-const menuIcon = document.getElementById("header__menu-icon");
+const menuIcon = document.getElementById("hamburger__icon");
 const headerMenu = document.getElementById("menu");
 const headerMenuLinks = document.querySelectorAll(".header__link");
 
 menuIcon.addEventListener("click", (e) => {
-  if (headerMenu.style.display === "none") {
+  if ((headerMenu.style.display = "none")) {
     headerMenu.style.display = "block";
     menuIcon.style.display = "none";
   } else {

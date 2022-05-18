@@ -982,6 +982,7 @@ opacity: 0.7;*/
     left: 0;
     right: 0;
     margin: 0;
+    padding: 0;
     z-index: 1;
     top: 0;
     overflow: hidden;
@@ -1007,9 +1008,12 @@ opacity: 0.7;*/
     margin-top: 50px;
   }
 
-  li .header__link,
-  .auth .auth__item {
+  li .header__link {
     font-size: 4vw;
+  }
+
+  .auth .auth__item {
+    font-size: 3vw;
   }
 
   .auth {
@@ -1105,7 +1109,7 @@ opacity: 0.7;*/
   }
 
   .start__mining-content p {
-    font-size: 13px;
+    font-size: 16px;
   }
 
   .footer {
@@ -1190,6 +1194,14 @@ opacity: 0.7;*/
     max-width: 100%;
     padding: 0;
     margin-right: 0;
+  }
+
+  li .header__link {
+    font-size: 7vw;
+  }
+
+  .auth .auth__item {
+    font-size: 6vw;
   }
 
   .about__card {
